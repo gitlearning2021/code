@@ -1,0 +1,96 @@
+/* /* 
+Follow a nameing convention
+Create logical sections in your stylesheet
+Avoid over-specific  selectors
+Avoid !important
+Sort CSS propertes
+Take advantage of style inheritance
+Extract repectitive patterns 
+*/
+
+/* 
+Variables 
+
+*/
+
+/* Box Model */
+
+/* body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.5;
+    padding: 1rem;
+}
+
+label{
+    display: block;
+
+}
+
+/* Atrribute Selector [target]
+input [type="text"],      
+input [type="email"]{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5rem 0.7rem;
+    transition: boder-color 0.15s, box-shadow 0.15s;
+}
+
+/* pseudo-class selector */
+
+/* input[type='text']:focus,
+input[type='email']:focus {
+    border-color: #7db0fb;
+    outline: 0;
+    box-shadow: 0 0 0 4px rgba(24,117,255,0.25) ;
+}
+
+button {
+    background: #0d6efd;
+    color:#fff;
+    border: 0px;
+    padding: 0.5rem 0.7rem;
+    border-radius: 5px;
+    outline: 0;
+}
+
+.from-group {  
+    margin-bottom:1rem;
+}  */ 
+
+/* 
+form {
+    width: 50%;
+    padding: 2rem;
+}
+
+textarea {
+    resize: none;
+} */
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 200px;
+    height: 300px;
+    background-color: gold;
+}
+
+.box:hover{
+    /* transform: rotate(-15deg); */
+    /* transform: scale(0.5); */
+    /* transform: skew(15deg); */
+    /* transform: skew(-15deg); */
+    /* transform: translate(10px,10px); */
+    /* transform: rotate(45deg) translatex(50px); */
+
+    /* 3D Transformations */
+    /* transform: perspective(200px) translateZ(50px); */
+    /* transform: perspective(200px) rotate(45deg); */
+    transform: perspective(200px) rotateY(45deg);
+    transform-origin: 0 50%;
+}

@@ -1,0 +1,45 @@
+
+PREREQUISITES
+Semantic HTML
+Basic CSS properties
+Selectors & pseudo-Selectors
+CSS box model
+Absolute & relative positioning
+Flex & Grid layout
+Media queries
+Responsive images
+Transformations
+Transitions
+
+
+COURSE STRUCTURE
+
+Tools You Need
+Setting Up the Project
+Coding Lessons
+
+
+TOOLS YOU Need
+Goole Chrome
+Firefox
+
+ HTML CSS Support Extension VS
+ CSS Peek
+ prettier - Code formatter
+         file > Perferences > settings > search format on save > checkbox
+ 
+ Highlight Matching 
+ TODO Highlight
+ git
+
+ Normlize.css downlaoad it 
+
+
+ code 
+
+index.htm    ! enter - fill with html code
+
+ctrl b : to open explere window side 
+
+ 
+
