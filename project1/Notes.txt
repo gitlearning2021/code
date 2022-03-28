@@ -34,6 +34,12 @@ Firefox
 
  Normlize.css downlaoad it 
 
+ COLOR PALETTE
+        Primary
+        Secondary
+        Accent
+        
+
 
  code 
 
