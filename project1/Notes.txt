@@ -38,7 +38,9 @@ Firefox
         Primary
         Secondary
         Accent
-        
+
+ TYPOGRAPHY
+ 
 
 
  code 
